@@ -1,0 +1,16 @@
+# vlc-skins-high-dpi /docs Knowledge Base
+
+## Core Purpose
+Usability and accessibility research for VLC Skins2 focusing on High-DPI and Touch interfaces.
+
+## Authoritative Docs
+- project-charter.md: Purpose, Objectives, Non-Goals.
+- touch-guidelines.md: Target sizes (Min: 40x40 DIP; Play/Pause: 64x64; Others: 56x56).
+- high-dpi-guidelines.md: Scaling validation (150%, 200%, 300%).
+- research-measurement-template.md: Standard data collection format.
+- /references/: Source binary skins and Skins2 spec.
+
+## Key Constraints
+- Goal: High-DPI/Touch usability.
+- Non-Goals: No UWP recreation, No Fluent Design clone, No VLC fork.
+- Philosophy: Simple by default, powerful when needed (KDE style).
