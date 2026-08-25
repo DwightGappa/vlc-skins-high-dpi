@@ -13,8 +13,9 @@ This roadmap tracks the progression of the `vlc-skins-high-dpi` research project
 
 - [x] Fork default skin to `skins/default-touch/`.
 - [x] Implement touch-friendly XML layout (target sizes: 64x64 / 56x56).
-- [ ] Produce high-resolution assets matching the new XML dimensions.
-- [ ] Bundle and package as `.vlt`.
+- [ ] **Alpha Validation**: Bundle current layout with stretched assets to verify geometry.
+- [ ] **Beta Asset Refresh**: Produce high-resolution assets (Tier 1 & 2) matching XML dimensions.
+- [ ] Bundle and package as final `.vlt`.
 - [ ] Validate sizing and stability in VLC across various scaling factors.
 
 ## Phase 3: Validation & Measurement
