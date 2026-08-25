@@ -21,7 +21,7 @@ To account for the specific nature of media playback (where some controls are us
 | **Fullscreen** | 56 × 56 | Common utility. |
 | **Volume Handle** | 56 × 56 | Requires sliding motion; larger area prevents slips. |
 | **Seek Thumb** | 56 × 56 | Critical for precise timeline scrubbing. |
-| **Seek Bar Height** | 16–24 px | Must be thick enough to be visually distinct and easy to tap. |
+| **Seek Bar Height** | 28 px | Increased from 16-24px baseline to 28px for improved touch accessibility. |
 | **Playlist Row** | 48–56 px | Prevents accidental selection of adjacent tracks. |
 
 ## 2. Interaction Principles

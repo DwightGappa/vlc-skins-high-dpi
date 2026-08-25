@@ -31,6 +31,7 @@ To avoid blurriness on high-density screens, assets should be provided at multip
 
 - **Relative Spacing:** Use spacing that scales proportionally.
 - **Avoid Hardcoded Pixel Limits:** Where possible in the Skins2 XML, avoid layouts that "break" or overlap when elements expand due to scaling.
+- **Leverage the Nested Box Model:** Use `lefttop`, `rightbottom`, and `keepratio` attributes to ensure controls maintain their relative positions and proportions when the window is resized or scaled. Avoid relying solely on fixed `x` and `y` coordinates for resizable elements.
 
 ## 3. Validation Process
 

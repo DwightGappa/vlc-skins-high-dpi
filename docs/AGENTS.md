@@ -33,5 +33,6 @@ Documentation updates should occur when:
 
 ## ⚠️ Critical Constraints
 
-- **Do not hallucinate targets:** Only use the dimensions specified in the guidelines.
+- **Reference Isolation:** Any files or directories under `references/` are for reference only. Do not modify them.
+- **Skin Forking:** When basing a new skin on a reference skin, you must fork the skin base from the `references/` folder into its own dedicated folder within the `skins/` directory.- **Do not hallucinate targets:** Only use the dimensions specified in the guidelines.
 - **Constraint over Feature:** Prioritize the Project Charter's non-goals over feature requests that contradict them.
